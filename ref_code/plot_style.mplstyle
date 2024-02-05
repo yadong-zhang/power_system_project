@@ -1,5 +1,5 @@
 ######################## FIGURE SETTINGS ###################
-figure.figsize: 3.0, 3.0
+figure.figsize: 4.0, 3
 savefig.format: pdf
 figure.autolayout: True
 
