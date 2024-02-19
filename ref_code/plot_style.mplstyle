@@ -37,8 +37,8 @@ grid.alpha: 0.2        # transparency, between 0.0 and 1.0
 ######################## TICK SETTINGS ###################
 xtick.major.width: 0.5
 ytick.major.width: 0.5
-xtick.major.size: 3
-ytick.major.size: 3
+xtick.major.size: 5
+ytick.major.size: 5
 
 
 ######################## LEGEND SETTINGS ###################
