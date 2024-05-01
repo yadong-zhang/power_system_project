@@ -26,18 +26,18 @@ class GNNModel(nn.Module):
 
     def forward(self, x, edge_index):
         x = F.relu(self.conv1(x, edge_index))
-        x = self.bn1(x)
-        x = self.in1(x)
+        # x = self.bn1(x)
+        # x = self.in1(x)
         x = self.ln1(x)
 
         x = F.relu(self.conv2(x, edge_index))
-        x = self.bn2(x)
-        x = self.in2(x)
+        # x = self.bn2(x)
+        # x = self.in2(x)
         x = self.ln2(x)
 
         x = F.relu(self.conv3(x, edge_index))
-        x = self.bn3(x)
-        x = self.in3(x)
+        # x = self.bn3(x)
+        # x = self.in3(x)
         x = self.ln3(x)
 
         return x.flatten()
